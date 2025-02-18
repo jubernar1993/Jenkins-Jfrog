@@ -1,11 +1,11 @@
  aws_region = "us-east-1"
  aws_instance_type  = "t2.medium"
  aws_key = "jenkins-jgrog-key1"
- qa_server = false
- uat_server = false
+ qa_server = true
+ uat_server = true
  jfrog_server = true
  profile = "default"
- jenkins_ami = "ami-006d7ee1ad67b21f8"
+ jenkins_ami = "ami-065409f29ba54ac23"
  jfrog_ami   = "ami-0a2dbc6cc465de9e8"#"ami-01b01ab3a35d97dde"
  role_name = "jenkinsAdminRoleAmi1"
  qa_uat_sg_name = "qa-uat-security-group"
